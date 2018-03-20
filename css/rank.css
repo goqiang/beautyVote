@@ -1,0 +1,120 @@
+@import url("intital.css");
+@import url("tab.css");
+.rank>ul {
+	width: 100%;
+	background: #fff;
+	height: 3rem;
+}
+
+.rank>ul li {
+	width: 50%;
+	text-align: center;
+	float: left;
+	height: 100%;
+	line-height: 3rem;
+	border-bottom: 1px solid #eee;
+	box-sizing: border-box;
+}
+
+.rank>ul li span {
+	height: 100%;
+	display: inline-block;
+}
+
+.rank>ul li span.now {
+	color: red;
+	border-bottom: 2px solid red;
+	box-sizing: border-box;
+}
+
+dl {
+	width: 100%;
+	text-align: left;
+	color: #666666;
+}
+
+dt {
+	clear: both;
+}
+
+dd {
+	float: left;
+	text-align: left;
+	height: 34px;
+	/*padding: 5px 0;*/
+	box-sizing: border-box;
+	line-height: 34px;
+	border-bottom: dotted 1px #eee;
+	margin: 0px;
+	font-size: 0.9rem;
+}
+
+.list1 {
+	width: 35%;
+	padding-left: 1.6rem;
+	box-sizing: border-box;
+}
+
+.list1+dd {
+	width: 26%;
+}
+
+.list3 {
+	width: 20%;
+}
+
+.list3+dd {
+	width: 19%;
+}
+
+.bottomTab ul a:nth-child(1) {
+	background: url(../images/p2-1_10.png) no-repeat center top;
+	background-size: 1.71rem 1.71rem;
+}
+.bottomTab ul a:nth-child(3) {
+	background: url(../images/p3_12.png) no-repeat center top;
+	background-size: 1.71rem 1.71rem;
+}
+
+dd span {
+	margin-left: 0.35rem;
+	width: 1.2rem;
+	height: 1.2rem;
+	border-radius: 50%;
+	background: red;
+	color: #fff;
+	line-height: 1.2rem;
+	text-align: center;
+	display: inline-block;
+}
+
+dd.label1 span{
+	background: #ff944d;
+}
+
+dd.label2 span{
+	background: #649595;
+}
+
+dd.label3 span{
+	background: #993300;
+}
+
+span.item:hover dd{
+	background: red;
+	color: #fff;
+	border-bottom: none;
+}
+span.item:hover dd span{
+	background: #fff;
+	color: red;
+}
+
+dd img {
+	vertical-align: middle;
+	width: 0.8rem;
+    height: 1.4rem;
+    border: none;
+    margin-left: 2rem;
+    z-index: 2;
+}

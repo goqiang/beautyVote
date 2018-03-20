@@ -1,0 +1,59 @@
+/*广告栏*/
+.poster{
+	display: block;
+	width: 100%;
+	height: 150px;
+}
+.poster img{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+.bottomTab{
+	z-index:999;
+	position: fixed;
+	flex-direction: row;
+	width:100%;
+	height:3rem;
+	padding:0.3rem 0px;
+	background: #fff;
+	left: 0px;
+	bottom: 0px;
+	border: 1px solid #eee;
+}
+.bottomTab ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 100%;	
+}
+.bottomTab ul a{
+	display: inline-block;
+	width: 25%;
+}
+.bottomTab ul a li{
+	line-height: 4.5rem;
+	width:100%;
+	text-align: center;
+	height: 100%;	
+}
+
+.bottomTab ul a:nth-child(1){
+	background: url(../images/p1_26.png) no-repeat center top;
+	background-size: 1.71rem 1.71rem;
+}
+.bottomTab ul a:nth-child(2){
+	background: url(../images/p1_18.jpg)  no-repeat center top;
+    background-size: 1.71rem 1.71rem;
+}
+.bottomTab ul a:nth-child(3){
+	background: url(../images/p1_20.jpg) no-repeat center top;
+	background-size: 1.71rem 1.71rem;
+}
+.bottomTab ul a:nth-child(4){
+	background: url(../images/p1_23.jpg) no-repeat center top;   
+    background-size: 1.71rem 1.71rem;
+}
+
+

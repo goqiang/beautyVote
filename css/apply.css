@@ -1,0 +1,124 @@
+@import url("intital.css");
+@import url("tab.css");
+body {
+	background: #f8f8f8;
+}
+
+.main {
+	background: #FFFFFF;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-bottom: 1.25rem;
+}
+
+form {
+	overflow: hidden;
+	width: 77%;
+}
+
+.inputArea {
+	height: 2.2rem;
+	border: 1px solid #EEEEEE;
+	border-radius: 5px;
+	color: #666;
+	margin-bottom: 0.9rem;
+	line-height: 2.2rem;
+	text-align: left;
+	box-shadow: 2px 2px 2px #EEEEEE inset;
+	padding-left: 0.625rem;	
+}
+#isCorrect{
+	display: none;
+	height:1rem;
+	color:red;
+	line-height:1rem;
+	padding-left: 0.8rem;
+    font-size: 0.5rem;
+}
+.inputArea:nth-child(1){
+	margin-top: 0.9rem;
+}
+
+.inputArea input {
+	border: none;
+	height: 90%;
+}
+.inputArea input:focus{
+	outline: none;
+}
+
+.photo {
+	width: 100%;
+	margin-bottom: 0.6rem;
+	height:7rem;
+}
+
+.photo>div {
+	font-size: 0.5rem;
+	height:100%;
+	float: left;
+	width: 48%;
+	border: 1px solid #eee;
+	border-radius: 5px;	
+	padding: 1.25rem 0.8rem;
+	box-sizing: border-box; 
+}
+
+.photo>div img {
+	width: 2.5rem;
+	height: 2.2rem;
+	border: none;
+	margin-bottom: 0.7rem;
+}
+
+.photo>.photo_left {
+	margin-right: 0.5rem;
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0rem;
+}
+.photo_left .previewImg{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0rem;
+}
+.photo_right label {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*position: relative;*/
+}
+
+.photo_right label input {
+    display: none;
+}
+/*form button{
+	
+}*/
+input[type='button']{
+	clear: both;
+	width: 100%;
+	height:2.8rem;
+	background: red;
+	color: #fff;
+	line-height: 2.5rem;
+	font-size: 1.2rem;
+	border: none;
+	text-align: center;
+	border-radius: 5px;
+}
+.bottomTab ul a:nth-child(1) {
+	background: url(../images/p2-1_10.png) no-repeat center top;
+	background-size: 1.71rem 1.71rem;
+}
+.bottomTab ul a:nth-child(2){
+	background: url(../images/p2-1_12.png)  no-repeat center top;
+    background-size: 1.71rem 1.71rem;
+}
+	
